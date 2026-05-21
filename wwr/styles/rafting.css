@@ -28,7 +28,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--secondary-color)
+    color: var(--accent1-color)
 }
 
 nav,
@@ -41,6 +41,11 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia img {
+    width: 55px;
+    height: auto;
 }
 
 .hero {
