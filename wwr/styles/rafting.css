@@ -1,0 +1,80 @@
+:root {
+    --primary-color: darkblue;
+    --secondary-color: lightblue;
+    --accent1-color: yellow;
+    --accent2-color: red;
+    --heading-font: Georgia, serif;
+    --body-font: Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: car(--primary-color)
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color)
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: car(--accent1-color);
+    color: #fff;
+}
+
+article {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
+    padding: 16px;
+    background-color: car(--accent1-color);
+    opacity: 0.85;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
