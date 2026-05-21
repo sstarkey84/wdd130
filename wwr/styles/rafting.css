@@ -61,7 +61,7 @@ h1 {
     text-align: center;
     opacity: .89;
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--accent2-color);
 }
 
 article {
