@@ -1,8 +1,8 @@
 :root {
     --primary-color: darkblue;
     --secondary-color: lightblue;
-    --accent1-color: yellow;
-    --accent2-color: red;
+    --accent1-color: rgb(237, 155, 4);
+    --accent2-color: white;
     --heading-font: Georgia, serif;
     --body-font: Arial, sans-serif;
 }
@@ -59,9 +59,9 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: .89;
     background-color: car(--accent1-color);
-    color: #fff;
+    color: white;
 }
 
 article {
@@ -71,10 +71,29 @@ article {
     right: 40px;
     padding: 16px;
     background-color: car(--accent1-color);
-    opacity: 0.85;
+    opacity: .75;
 }
 
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
 }
