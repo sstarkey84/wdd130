@@ -74,7 +74,6 @@ main {
     max-width: 50rem;
     grid-column: 2/3;
     margin: 1rem 0;
-
 }
 
 main img {
@@ -104,8 +103,8 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 90px;
-    left: 233px;
+    top: 100px;
+    left: 49%;
 }
 
 footer {
