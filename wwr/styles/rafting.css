@@ -2,7 +2,7 @@
     --primary-color: rgb(0, 51, 102);
     --secondary-color: rgb(210, 235, 245);
     --accent1-color: rgb(140, 75, 0);
-    --accent2-color: white;
+    --accent2-color: rgb(255, 255, 255);
     --heading-font: Georgia, serif;
     --body-font: Arial, sans-serif;
 }
