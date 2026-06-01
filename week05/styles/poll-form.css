@@ -23,7 +23,7 @@ h1 {
 }
 
 form {
-    width: 650px;
+    width: 700px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
@@ -37,7 +37,21 @@ fieldset {
     gap: .5rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .2);
-    padding: 1rem;
+    padding: 1.5rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+textarea {
+    width: 100%;
+}
+
+textarea-label {
+    text-align: left;
+    padding-right: 0;
 }
 
 legend {
@@ -52,6 +66,8 @@ button,
 select,
 textarea {
     font-family: Arial, sans-serif;
+    padding: .5rem;
+    font-size: 1.1rem;
 }
 
 input[type="checkbox"] {
@@ -91,9 +107,15 @@ footer {
 
 .column1 {
     grid-template-columns: 3fr 1fr;
-    margin: .5rem 0;
 }
 
 .column2 {
     grid-template-columns: 1fr 2fr;
+}
+
+.places-label {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding-right: 0rem;
 }
