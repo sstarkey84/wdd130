@@ -53,9 +53,12 @@
                 <div class="form-row">
                     <label>Message Purpose</label>
                     <div class="radio-options">
-                        <label><input type="radio" name="purpose" checked> General Inquiry</label>
-                        <label><input type="radio" name="purpose"> Reservation Question</label>
-                        <label><input type="radio" name="purpose"> Website Suggestion</label>
+                        <label><input type="radio" id="general " name="purpose" checked> General
+                            Inquiry</label>
+                        <label><input type="radio" id="reservation" name="purpose"> Reservation
+                            Question</label>
+                        <label><input type="radio" id="suggestion" name="purpose"> Website
+                            Suggestion</label>
                     </div>
                 </div>
                 <div class="message-row">
@@ -63,7 +66,8 @@
                     <textarea id="message" name="message" rows="5"></textarea>
                 </div>
 
-                <label class="newsletter"><input type="checkbox"> Please subscribe me to the
+                <label class="newsletter"><input type="checkbox" id="newsletter" name="newsletter">
+                    Please subscribe me to the
                     monthly
                     newsletter</label>
 

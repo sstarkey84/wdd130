@@ -304,8 +304,11 @@ button {
     height: 300px;
 }
 
+iframe {
+    border: 0;
+}
+
 main h1 {
-    position: center;
     top: 150px;
     padding: 20px;
     text-align: center;
