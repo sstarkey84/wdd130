@@ -25,8 +25,9 @@
     </header>
 
     <main>
+        <h1>Kern River White Water Adventures</h1>
+
         <section class="contact-info">
-            <h2>Kern River White Water Adventures</h2>
             <p>1301 Kernville Road</p>
             <p>Kernville, CA</p>
             <p>(661)398-7745</p>
@@ -40,42 +41,34 @@
                   width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-
-            <div class="form-row">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name">
-            </div>
-            <div class="form-row">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email">
-            </div>
-            <div class="form-row">
-                <label>Message Purpose</label>
-                <div class="radio-options">
-                    <label>
-                        <input type="radio" name="purpose">
-                        General Inquiry
-                    </label>
-                    <label>
-                        <input type="radio" name="purpose">
-                        Reservation Question
-                    </label>
-                    <label>
-                        <input type="radio" name="purpose">
-                        Website Suggestion
-                    </label>
+            <form>
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
                 </div>
-            </div>
-            <div class="message-row">
-                <label for="message">Message</label>
-                <textarea id="message" rows="5"></textarea>
-            </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-row">
+                    <label>Message Purpose</label>
+                    <div class="radio-options">
+                        <label><input type="radio" name="purpose" checked> General Inquiry</label>
+                        <label><input type="radio" name="purpose"> Reservation Question</label>
+                        <label><input type="radio" name="purpose"> Website Suggestion</label>
+                    </div>
+                </div>
+                <div class="message-row">
+                    <label class="message-label" for="message">Message</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>
 
-            <label>
-                <input type="checkbox"> Please subscribe me to the monthly newsletter
-            </label>
+                <label class="newsletter"><input type="checkbox"> Please subscribe me to the
+                    monthly
+                    newsletter</label>
 
-            <button type="submit">Get in Touch!</button>
+                <button type="submit">Get in Touch!</button>
+            </form>
         </section>
 
         <section class="employees">
