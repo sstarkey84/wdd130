@@ -336,7 +336,7 @@ iframe {
 }
 
 .newsletter form {
-    display: gird;
+    display: grid;
     gap: 20px;
 }
 
