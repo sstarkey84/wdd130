@@ -61,6 +61,7 @@ article {
     display: block;
     width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 
 article {
@@ -248,11 +249,18 @@ form {
 }
 
 .newsletter {
-    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 450px;
+    margin-left: 15px auto 0 auto;
+    white-space: nowrap;
 }
 
 .newsletter input {
     width: auto;
+    margin: 0;
 }
 
 button {
@@ -370,4 +378,74 @@ iframe {
 
 .home-card p {
     padding: 8px 0;
+}
+
+.trips-hero {
+    text-align: center;
+    margin: 30px auto;
+    width: 900px;
+}
+
+.trips-hero a {
+    display: inline-block;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 900px;
+    margin: 30px auto;
+    gap: 20px;
+}
+
+.trip-card {
+    position: static;
+    background-color: transparent;
+    opacity: 1;
+    padding: 0;
+    text-align: center;
+}
+
+.trip-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.trip-table {
+    width: 700px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+.home-hero {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.home-hero img {
+    width: 100%;
+    display: block;
+}
+
+.contact-title {
+    width: 900px;
+    margin: 30px auto;
+    text-align: center;
 }
