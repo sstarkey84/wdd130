@@ -322,16 +322,13 @@ iframe {
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 24px;
+    justify-content: center;
+    gap: 40px;
     margin: 30px auto;
     width: 900px;
     align-items: start;
-    position: relative;
-    right: 50px;
 }
 
-.newsletter,
-.cta,
 .home-card {
     padding: 20px;
 }
@@ -343,37 +340,16 @@ iframe {
     margin-bottom: 12px;
 }
 
-.newsletter form {
-    display: grid;
-    gap: 20px;
-}
-
-.newsletter input {
-    width: 100%;
-}
-
-.newsletter button {
-    width: 100%;
-}
-
-.cta a {
-    display: block;
-    text-align: center;
-    background-color: var(--accent1-color);
-    color: var(--accent2-color);
-    padding: 10px;
-    text-decoration: none;
-    margin-top: 0;
-}
-
 .home-card {
     text-align: center;
 }
 
 .home-card img {
+    width: 100%;
     align-items: start;
     max-width: 400px;
-    margin: 0 auto;
+    height: 200px;
+    object-fit: cover;
 }
 
 .home-card p {
@@ -434,18 +410,67 @@ iframe {
     padding: 8px;
 }
 
-.home-hero {
-    width: 1000px;
-    margin: 0 auto;
-}
-
-.home-hero img {
-    width: 100%;
-    display: block;
-}
-
 .contact-title {
     width: 900px;
     margin: 30px auto;
     text-align: center;
+}
+
+.home-grid .newsletter {
+    display: block;
+    text-align: left;
+}
+
+.home-grid .newsletter h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home-grid .newsletter form {
+    display: grid;
+    gap: 4px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.home-grid .newsletter input,
+.home-grid .newsletter button {
+    width: 100%;
+}
+
+.home-grid .newsletter p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.home-grid .cta {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home-grid .cta a {
+    display: block;
+    width: 100%;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.home-grid .cta p {
+    margin-top: 15px;
+}
+
+.home-grid .cta p {
+    margin-top: 15px;
+}
+
+.home-grid .newsletter,
+.home-grid .cta {
+    padding: 0;
 }
